@@ -1,0 +1,33 @@
+footer {
+  background: #7297a3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1em;
+  /* width: 1200px; */
+  height: 70px;
+}
+
+.footer > p {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+}
+
+.copyright {
+  font-weight: bold;
+}
+
+.fa-brands {
+  background-color: transparent;
+  border-radius: 0.2em;
+  padding: 0.3em;
+}
+
+.fa-facebook-f,
+.fa-youtube,
+.fa-instagram,
+.fa-twitter {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Bookstore</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="The homepage for My Bookstore" />
+    
+        <!-- Import font-awesome icons -->
+        <link
+          href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"/>
+    
+        <!-- order of CSS files is important (this is the "Cascade" part of CSS) -->
+    
+        <!-- global.css contains resets, custom properties, and utility classes -->
+        <link rel="stylesheet" href="css/global.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" rel="stylesheet">
+        <!-- start from the top-level component and work your way down -->
+        <link rel="stylesheet" href="CSS/app-footer.css" />
+        <link rel="stylesheet" href="CSS/app-header.css" />
+        <link rel="stylesheet" href="CSS/category.css" />
+        <link rel="stylesheet" href="CSS/header-dropdown.css" />
+        <link rel="stylesheet" href="CSS/home.css" />
+      </head>
+
+      <body>
+        <main>
+            <header class="header-container">
+                <section class="title-and-logo">
+                    <a href="home.html"><img src="images/site/logo1.png" alt="Manga Lib logo">Manga Lib</img></a>
+                </section>
+                
+                <section>
+                    <form class="search-bar">
+                        <input type="text" placeholder="Search by Author Name, Book Name" name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </section>
+
+                <section class="header-dropdown-and-cart">
+                    <div class="header-dropdown">
+                      <button class="button categories-button">Categories &nbsp;<i class="fa fa-angle-down"></i></button>
+                      <ul>
+                        <li><a href="categories.html">Classics</a></li>
+                        <li><a href="categories.html">Non-Fiction</a></li>
+                        <li><a href="categories.html">Mystery</a></li>
+                        <li><a href="categories.html">Action</a></li>
+                      </ul>
+                    </div>
+                </section>    
+
+                <section>
+                    <button class="button-cart"><span class="cart-count">2</span><i class="fas fa-shopping-cart fa-2x"></i></button>
+                </section>
+
+                <button class="account-button">Kiran
+                <i class='fas fa-user-circle' style='font-size:25px;color:rgb(255, 255, 255)'></i>
+                </button>
+            </header>
+
+            <div class="body-bg-img">
+            <section class="homepage-info">
+                <div>Latest Manga Releases</div>
+                <p>Official eBook Store for Manga and Anime Fans!!!</p>
+            </section>
+
+            <div class="home-img-container">
+                <div><img src="images\books\book1.jpg" alt="Image 1"></div>
+                <div><img src="images\books\book2.jpg" alt="Image 2"></div>
+                <div><img src="images\books\book3.jpg" alt="Image 3"></div>  
+              </div>
+            
+            <div class="shop-button">
+                <a href="category.html"><button>Shop Books!!!</button></a>
+            </div>
+            </div>
+
+            <footer class="footer">
+                <p class="copyright">&copy; 2023 MangaLib,Inc. All rights reserved</p>
+                <p>About us</p>
+                <p>Contact us</p>
+                <p>Locate us</p>
+                <section class="social">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                </section>           
+            </footer>
+        </main>
+      </body>
+</html>

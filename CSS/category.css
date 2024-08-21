@@ -1,0 +1,113 @@
+.category-nav {
+  display: flex;
+  justify-content: space-evenly;
+  background: none;
+  background-color: rgb(185, 185, 185);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.category-nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Inter", sans-serif;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 1rem;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.category-nav a:hover {
+  cursor: pointer;
+  color: black;
+  background: #7297a3;
+}
+
+.category-book-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 30px;
+}
+
+.each-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  position: relative;
+  display: inline-block;
+  /* background-color: lightblue;  */
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.book-img {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #7297a3; /* Background color for the icon */
+  padding: 5px; /* Adjust padding as needed */
+  border-radius: 50%;
+}
+
+.each-book img {
+  height: 300px;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.book-title {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.author {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.price {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.add-cart-button {
+  border-radius: 20px;
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+  background: #7297a3;
+}
+
+.button-readme {
+  width: 30px;
+  background-color: #7297a3;
+  color: #ffffff;
+  height: 30px;
+  top: -172px;
+  left: 65px;
+  position: relative;
+  border-radius: 3px;
+  border: transparent;
+}
+
+.button-readme:hover {
+  cursor: pointer;
+}
